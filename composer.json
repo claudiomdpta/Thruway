@@ -45,5 +45,11 @@
         "phpunit/phpunit": "^8",
         "thruway/pawl-transport": "^0.5.0",
         "thruway/raw-socket-transport": "^0.5.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/danagnostos/ratchet-transport.git"
+        }
+    ],
 }
